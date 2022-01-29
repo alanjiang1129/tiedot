@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HouzuoGuo/tiedot/dberr"
+	"tiedot/dberr"
 )
 
 var (

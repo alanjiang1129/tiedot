@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HouzuoGuo/tiedot/data"
-	"github.com/HouzuoGuo/tiedot/tdlog"
+	"tiedot/data"
+	"tiedot/tdlog"
 )
 
 const (
@@ -185,7 +185,7 @@ func (db *DB) Truncate(name string) error {
 	return nil
 }
 
-// Scrub a collection - fix corrupted documents and de-fragment free space.
+// 清理集合 - 修复损坏的文档并整理可用空间。
 func (db *DB) Scrub(name string) error {
 	db.schemaLock.Lock()
 	defer db.schemaLock.Unlock()
@@ -237,7 +237,7 @@ func (db *DB) Scrub(name string) error {
 	return nil
 }
 
-// Drop a collection and lose all of its documents and indexes.
+// 删除集合，并丢弃所有集合数据
 func (db *DB) Drop(name string) error {
 	db.schemaLock.Lock()
 	defer db.schemaLock.Unlock()

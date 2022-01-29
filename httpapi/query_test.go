@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/HouzuoGuo/tiedot/db"
+	"tiedot/db"
 )
 
 var (

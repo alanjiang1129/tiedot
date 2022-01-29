@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/HouzuoGuo/tiedot/dberr"
+	"tiedot/dberr"
 )
 
 // helper function

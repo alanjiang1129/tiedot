@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/HouzuoGuo/tiedot/data"
-	"github.com/HouzuoGuo/tiedot/db"
+	"tiedot/data"
+	"tiedot/db"
 )
 
 var (

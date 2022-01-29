@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HouzuoGuo/tiedot/db"
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/dgrijalva/jwt-go/request"
+	"tiedot/db"
 )
 
 var (

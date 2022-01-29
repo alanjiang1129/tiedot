@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/HouzuoGuo/tiedot/benchmark"
-	"github.com/HouzuoGuo/tiedot/examples"
-	"github.com/HouzuoGuo/tiedot/httpapi"
-	"github.com/HouzuoGuo/tiedot/tdlog"
+	"tiedot/benchmark"
+	"tiedot/examples"
+	"tiedot/httpapi"
+	"tiedot/tdlog"
 )
 
 // Read Linux system VM parameters and print performance configuration advice when necessary.

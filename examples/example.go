@@ -1,4 +1,4 @@
-// +build test
+//
 package examples
 
 import (
@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/HouzuoGuo/tiedot/db"
-	"github.com/HouzuoGuo/tiedot/dberr"
+	"tiedot/db"
+	"tiedot/dberr"
 )
 
 /*
@@ -23,7 +23,7 @@ It may require as much as 1.5GB of free disk space in order to run the example.
 func EmbeddedExample() {
 	// ****************** Collection Management ******************
 
-	myDBDir := "/tmp/MyDatabase"
+	myDBDir := "../tmp/MyDatabase"
 	os.RemoveAll(myDBDir)
 	defer os.RemoveAll(myDBDir)
 
